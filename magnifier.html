@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+#div1{ width:180px; height:180px; overflow:hidden; position:relative;}
+#div1 span{ width:100px; height:100px; background:yellow; opacity:0.5; filter:alpha(opacity=50); position:absolute; left:0; top:0; display:none;}
+#mark{ width:180px; height:180px; background:red; position:absolute; left:0; top:0;opacity:0; filter:alpha(opacity=0);}
+#div2{ width:500px; height:500px; position:absolute; left:250px; top:50px; overflow:hidden; display:none;}
+#div2 img{ position:absolute; left:0; top:0;}
+</style>
+<script src="magnifier.js"></script>
+</head>
+<body>
+<div id="div1">
+	<img src="img/b2.jpg">
+    <span></span>
+    <div id="mark"></div>
+</div>
+<div id="div2">
+	<img src="img/b1.jpg">
+</div>
+</body>
+</html>
